@@ -1,4 +1,4 @@
-package com.grunka.random;
+package com.grunka.random.rfc11495;
 
 import java.util.Random;
 
