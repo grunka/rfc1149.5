@@ -12,6 +12,31 @@
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
+    <name>RFC1149.5</name>
+    <description>An implementation of RFC1149.5</description>
+    <url>https://github.com/grunka/rfc1149.5</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>John Wästerlund</name>
+            <email>john@grunka.com</email>
+            <organization>grunka</organization>
+            <organizationUrl>https://github.com/grunka</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/grunka/rfc1149.5.git</connection>
+        <developerConnection>scm:git:ssh://github.com:grunka/rfc1149.5.git</developerConnection>
+        <url>http://github.com/grunka/rfc1149.5/tree/master</url>
+    </scm>
+
     <profiles>
         <profile>
             <id>release</id>
