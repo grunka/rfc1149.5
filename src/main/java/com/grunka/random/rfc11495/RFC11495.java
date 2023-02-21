@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Implemented according to RFC1149.5
+ * @see <a href="https://xkcd.com/221/">XKCD 221<a>
  */
 public class RFC11495 extends Random {
     @Override
